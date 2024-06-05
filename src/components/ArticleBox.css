@@ -1,0 +1,50 @@
+.articleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.autor,
+.articleTitle,
+.articleDescription{
+    overflow: hidden;
+}
+
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 240px;
+}
+
+.autor{
+    font-size: 12px;
+    color: #bcbbbe;
+}
+
+.articleTitle{
+    font-size: 21px;
+    color: #44465D;
+}
+
+.articleDescription{
+    display: flex;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #818192;
+    top: 10px;
+}
+
+.articleImage{
+    display: flex;
+    width: 255px;
+    height: 200px;
+    background-size: cover; 
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

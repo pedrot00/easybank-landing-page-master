@@ -1,6 +1,7 @@
 .boxContainer{
     display: flex;
     position: relative;
+    justify-content: center;
     flex-direction: column;
     width: 230px;
     font-family: Montserrat;
@@ -17,3 +18,4 @@
     color: #9a9ba0;
     font-size: 18px;
 }
+

@@ -1,0 +1,21 @@
+.articleBoxTitle{
+    display: flex;
+    position: relative;
+    bottom: 1800px;
+    left: 120px;
+    font-family: Montserrat;
+    font-size: 22px;
+    color: #44465D;
+}
+.mainArticleBox{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 637px;
+    font-family: Montserrat;
+    bottom: 1850px;
+    left: 40px;
+    transform: scale(0.9);  
+}
+
