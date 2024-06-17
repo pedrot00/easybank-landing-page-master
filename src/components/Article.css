@@ -10,7 +10,7 @@
 .mainArticleBox{
     display: flex;
     position: relative;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100vw;
     height: 637px;
     font-family: Montserrat;
