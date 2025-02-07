@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+Easybank - Landing Page 🏦
+Este é um projeto de landing page para o Easybank, um banco fictício. O site foi desenvolvido utilizando React e estilizado com CSS/SASS (ou outra tecnologia que você usou) para proporcionar uma experiência moderna e responsiva.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Demonstração
+Você pode visualizar o projeto ao vivo aqui: 🔗 Link para a Demo (adicione um link se estiver hospedado em algum lugar, como Vercel ou Netlify).
 
-## Available Scripts
+📸 Captura de Tela
+(Adicione uma imagem da landing page aqui!)
 
-In the project directory, you can run:
+🛠 Tecnologias Utilizadas
+React.js ⚛️
+Styled Components / CSS Modules / SASS 🎨 (escolha o que usou)
+React Router 🌍 (se aplicável)
+Axios / Fetch API 📡 (se houver consumo de API)
+📦 Como Rodar o Projeto Localmente
+1️⃣ Clone o repositório
 
-### `npm start`
+sh
+Copiar
+Editar
+git clone https://github.com/pedrot00/easybank-landing-page-master.git
+2️⃣ Acesse a pasta do projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+sh
+Copiar
+Editar
+cd easybank-landing-page-master
+3️⃣ Instale as dependências
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+sh
+Copiar
+Editar
+npm install
+# ou
+yarn install
+4️⃣ Execute o projeto
 
-### `npm test`
+sh
+Copiar
+Editar
+npm start
+# ou
+yarn start
+O site estará disponível em http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔨 Funcionalidades
+✅ Design responsivo
+✅ Interface moderna e amigável
+✅ Animações e transições suaves (se houver)
+✅ Integração com APIs (se aplicável)
 
-### `npm run build`
+📁 Estrutura do Projeto
+sh
+Copiar
+Editar
+📦 easybank-landing-page-master
+ ┣ 📂 src
+ ┃ ┣ 📂 components   # Componentes reutilizáveis
+ ┃ ┣ 📂 pages        # Páginas do site
+ ┃ ┣ 📂 assets       # Imagens, ícones e fontes
+ ┃ ┣ 📜 App.js       # Componente principal
+ ┃ ┣ 📜 index.js     # Ponto de entrada do React
+ ┣ 📜 package.json   # Dependências do projeto
+ ┣ 📜 README.md      # Documentação do projeto
+🚀 Hospedagem (se aplicável)
+Se o projeto foi implantado, adicione detalhes aqui sobre como acessar a versão online.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🤝 Contribuição
+Sinta-se à vontade para contribuir com o projeto! Basta:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1️⃣ Fazer um fork 🍴
+2️⃣ Criar uma nova branch (git checkout -b minha-feature)
+3️⃣ Fazer as alterações e commit (git commit -m 'Adiciona nova feature')
+4️⃣ Enviar para o repositório remoto (git push origin minha-feature)
+5️⃣ Abrir um Pull Request 🔥
