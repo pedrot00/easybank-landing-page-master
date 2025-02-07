@@ -1,0 +1,21 @@
+.boxContainer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    width: 230px;
+    font-family: Montserrat;
+    bottom: 30px;
+    right: 10px;
+}
+
+.subBoxTitle{
+    font-size: 22px;
+    color: #2a2c3bdc;
+}
+
+.subBoxDescription{
+    color: #9a9ba0;
+    font-size: 18px;
+}
+

@@ -1,0 +1,77 @@
+*{
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 80px;
+    width: 100vw;
+    margin-left: auto; 
+    margin-right: auto;
+    transition: background-color 0.5s ease;
+    z-index: 2;
+}
+
+.navbar:hover {
+    background-color: #2ace5e59;
+}
+
+ 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+   
+}
+
+.navbar li {
+    float: left; 
+    overflow: hidden;
+}
+ 
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.1s ease, transform 0.3s ease;
+}
+.navbar li a:hover{
+    transform: scale(1.1);
+    color: #2CBCC4;
+    font-weight: bold;
+}
+.logo{
+    cursor: pointer;
+}
+
+.inviteButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 163px;
+    background: linear-gradient(to right, #2ACE5D, #2CBCC4);
+    border: none;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .inviteButton:hover {
+    opacity: 0.8; 
+    transform: scale(1.1);
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+  
